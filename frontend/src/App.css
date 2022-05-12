@@ -1,0 +1,64 @@
+.flex {
+  display: flex;
+}
+
+.cards {
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 400px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+}
+
+.content-card {
+  text-align: left;
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 22px 0 23px 20px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 29px 20px;
+}
+
+.title-card {
+  background: rgba(54, 5, 104, 1);
+}
+.style-secondary .title-card {
+  background: rgba(154, 198, 197, 1);
+}
+.style-secondary h4 {
+  color: rgba(196, 196, 196, 1);
+}
+
+.footer-card a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+img {
+  padding: 1rem;
+}
+
+.card-button {
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  background-color: lightblue;
+  width: 100%;
+}
