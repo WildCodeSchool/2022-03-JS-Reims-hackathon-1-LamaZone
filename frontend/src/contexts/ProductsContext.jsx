@@ -4,12 +4,12 @@ import Axios from "axios";
 
 const ProductsContext = createContext();
 
-export function APIContext({ children }) {
+export function ProductsContextProvider({ children }) {
   const [products, setProducts] = useState(null);
 
   useEffect(() => {
     Axios.get("http://www.localhost:3001/items").then((res) => {
-      setProducts(res.data.results);
+      setProducts(res.data);
     });
   }, []);
 
@@ -20,7 +20,7 @@ export function APIContext({ children }) {
   );
 }
 
-APIContext.propTypes = {
+ProductsContextProvider.propTypes = {
   children: propTypes.node.isRequired,
 };
 
