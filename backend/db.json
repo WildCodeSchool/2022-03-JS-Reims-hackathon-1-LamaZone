@@ -4,7 +4,7 @@
       "id": 1,
       "name": "MacBook",
       "category": "Laptop",
-      "img": "macbook.jpg",
+      "img": "./src/assets/macbook.png",
       "metals": {
         "gold": 12,
         "silver": 10,
@@ -17,7 +17,7 @@
       "id": 2,
       "name": "iPhone",
       "category": "Mobile",
-      "img": "",
+      "img": "./src/assets/macbook.png",
       "metals": {
         "gold": 12,
         "silver": 10,
@@ -30,7 +30,7 @@
       "id": 3,
       "name": "iPad",
       "category": "Tablet",
-      "img": "img/iPad.png",
+      "img": "./src/assets/macbook.png",
       "metals": {
         "gold": 12,
         "silver": 10,
@@ -43,7 +43,7 @@
       "id": 4,
       "name": "TV",
       "category": "TV",
-      "img": "https://cdn.pixabay.com/photo/2016/11/29/05/45/tv-1867438_960_720.jpg",
+      "img": "./src/assets/macbook.png",
       "metals": {
         "gold": 12,
         "silver": 10,
