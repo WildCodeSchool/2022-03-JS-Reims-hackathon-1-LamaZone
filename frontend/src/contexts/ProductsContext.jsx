@@ -5,10 +5,10 @@ import Axios from "axios";
 const ProductsContext = createContext();
 
 export function ProductsContextProvider({ children }) {
-  const [products, setProducts] = useState(null);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    Axios.get("http://www.localhost:3001/items").then((res) => {
+    Axios.get("http://localhost:3001/items").then((res) => {
       setProducts(res.data);
     });
   }, []);
