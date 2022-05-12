@@ -1,17 +1,19 @@
-import React from "react";
+import propTypes from "prop-types";
 
-export default function Card() {
+function Card({ product }) {
   return (
     <div className="card">
-      <h3 className="title-card">Card Title</h3>
-      <img src="./src/assets/macbook.png" alt="mackbook" />
+      <h3 className="title-card">{product.name}</h3>
+      <img src={product.img} alt={product.name} />
       <article className="content-card">
-        <h4>Content Title</h4>
-        <p>
-          Now that the, uh, garbage ball is in space, Doctor, perhaps you can
-          help me with my sexual inhibitions? Hello, little man. I will destroy
-          you! Bite my shiny metal ass. Yes! In your face, Gandhi!
-        </p>
+        <h4>Materiaux</h4>
+        <ul>
+          {Object.values(product.metals).map((metal, index) => (
+            <li key={metal}>
+              {Object.keys(product.metals)[index]}: {metal}mg
+            </li>
+          ))}
+        </ul>
       </article>
       <div className="footer-card" />
       <button type="button" className="card-button">
@@ -20,3 +22,14 @@ export default function Card() {
     </div>
   );
 }
+
+Card.propTypes = {
+  product: propTypes.shape({
+    id: propTypes.number.isRequired,
+    name: propTypes.string.isRequired,
+    img: propTypes.string.isRequired,
+    metals: propTypes.shape.isRequired,
+  }).isRequired,
+};
+
+export default Card;
