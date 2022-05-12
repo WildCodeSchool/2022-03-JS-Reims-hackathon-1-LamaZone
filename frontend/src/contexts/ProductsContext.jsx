@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 import { useState, useEffect, createContext, useContext } from "react";
 import propTypes from "prop-types";
 import Axios from "axios";
