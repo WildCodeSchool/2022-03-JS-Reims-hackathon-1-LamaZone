@@ -7,9 +7,9 @@ function Card({ product }) {
       <img src={product.img} alt={product.name} />
       <article className="content-card">
         <h4>Materiaux</h4>
-        <ul className="flex">
+        <ul className="flex items-center justify-center flex-wrap">
           {Object.values(product.metals).map((metal, index) => (
-            <li key={metal}>
+            <li className="m-1" key={metal}>
               {Object.keys(product.metals)[index]}: {metal}mg
             </li>
           ))}
