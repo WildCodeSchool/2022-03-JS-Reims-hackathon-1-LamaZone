@@ -17,7 +17,7 @@ function Card({ product }) {
       </article>
       <div className="footer-card" />
       <button type="button" className="card-button">
-        Submit
+        Ajouter au panier
       </button>
     </div>
   );
