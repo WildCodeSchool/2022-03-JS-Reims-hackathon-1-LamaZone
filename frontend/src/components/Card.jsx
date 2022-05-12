@@ -2,12 +2,12 @@ import propTypes from "prop-types";
 
 function Card({ product }) {
   return (
-    <div className="card">
+    <div className="card m-3">
       <h3 className="title-card">{product.name}</h3>
       <img src={product.img} alt={product.name} />
       <article className="content-card">
         <h4>Materiaux</h4>
-        <ul>
+        <ul className="flex">
           {Object.values(product.metals).map((metal, index) => (
             <li key={metal}>
               {Object.keys(product.metals)[index]}: {metal}mg

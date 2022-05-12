@@ -1,3 +1,11 @@
+body {
+  background-color: whitesmoke;
+}
+input {
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
 .flex {
   display: flex;
 }
@@ -11,10 +19,11 @@
   box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.45);
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .content-card {
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
   flex-grow: 1;
 }
@@ -37,7 +46,9 @@
 }
 
 .title-card {
-  background: rgba(54, 5, 104, 1);
+  background: #4e944f;
+  text-align: center;
+  border-radius: inherit;
 }
 .style-secondary .title-card {
   background: rgba(154, 198, 197, 1);
@@ -59,6 +70,6 @@ img {
   border: none;
   border-radius: 10px;
   height: 50px;
-  background-color: lightblue;
+  background-color: #b4e197;
   width: 100%;
 }
