@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import propTypes from "prop-types";
+import { useValueContext } from "../contexts/ValueContext";
 
-function Navbar({ value, setValue }) {
+function Navbar() {
   const createLink = (link, name) => {
     return (
       <li>
@@ -11,6 +11,7 @@ function Navbar({ value, setValue }) {
       </li>
     );
   };
+  const { value, setValue } = useValueContext();
   return (
     <nav className="flex justify-between items-center w-[100vw] h-[4vw]">
       <span>TITLE</span>
@@ -28,10 +29,4 @@ function Navbar({ value, setValue }) {
     </nav>
   );
 }
-
-Navbar.propTypes = {
-  value: propTypes.string.isRequired,
-  setValue: propTypes.func.isRequired,
-};
-
 export default Navbar;
