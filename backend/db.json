@@ -6,11 +6,14 @@
       "category": "Laptop",
       "img": "./src/assets/macbook.png",
       "metals": {
-        "gold": 12,
-        "silver": 10,
-        "bronze": 8,
-        "cobalt": 6,
-        "tungstene": 4
+        "Néodyme": 2100,
+        "Praséodyme": 270,
+        "Dysprosium": 60,
+        "Gadolinium": 0.01,
+        "Cérium": 0.08,
+        "Europium": 0.13,
+        "Lanthane": 0.11,
+        "Terbium": 0.04
       }
     },
     {
@@ -19,11 +22,16 @@
       "category": "Mobile",
       "img": "./src/assets/macbook.png",
       "metals": {
-        "gold": 12,
-        "silver": 10,
-        "bronze": 8,
-        "cobalt": 6,
-        "tungstene": 4
+        "aluminium": 2218,
+        "cuivre": 1512,
+        "plastique": 953,
+        "cobalt": 538,
+        "tungsten": 44,
+        "silver": 31,
+        "neodynium": 5,
+        "gold": 3,
+        "indium": 1,
+        "palladium": 1
       }
     },
     {
@@ -32,11 +40,16 @@
       "category": "Tablet",
       "img": "./src/assets/macbook.png",
       "metals": {
-        "gold": 12,
-        "silver": 10,
-        "bronze": 8,
-        "cobalt": 6,
-        "tungstene": 4
+        "aluminium": 2300,
+        "cuivre": 1600,
+        "plastique": 1100,
+        "cobalt": 600,
+        "tungsten": 60,
+        "silver": 40,
+        "neodynium": 10,
+        "gold": 6,
+        "indium": 4,
+        "palladium": 4
       }
     },
     {
@@ -45,11 +58,11 @@
       "category": "TV",
       "img": "./src/assets/macbook.png",
       "metals": {
-        "gold": 12,
-        "silver": 10,
-        "bronze": 8,
-        "cobalt": 6,
-        "tungstene": 4
+        "tube cathodique": 4300,
+        "plastique": 1200,
+        "Métaux non fereux": 500,
+        "carte électronique": 700,
+        "Métaux ferreux": 1000
       }
     }
   ]
