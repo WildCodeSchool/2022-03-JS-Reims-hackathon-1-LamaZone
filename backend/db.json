@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "MacBook",
+      "category": "Laptop",
+      "img": "./src/assets/macbook.png",
+      "metals": {
+        "gold": 12,
+        "silver": 10,
+        "bronze": 8,
+        "cobalt": 6,
+        "tungstene": 4
+      }
+    },
+    {
+      "id": 2,
+      "name": "iPhone",
+      "category": "Mobile",
+      "img": "./src/assets/macbook.png",
+      "metals": {
+        "gold": 12,
+        "silver": 10,
+        "bronze": 8,
+        "cobalt": 6,
+        "tungstene": 4
+      }
+    },
+    {
+      "id": 3,
+      "name": "iPad",
+      "category": "Tablet",
+      "img": "./src/assets/macbook.png",
+      "metals": {
+        "gold": 12,
+        "silver": 10,
+        "bronze": 8,
+        "cobalt": 6,
+        "tungstene": 4
+      }
+    },
+    {
+      "id": 4,
+      "name": "TV",
+      "category": "TV",
+      "img": "./src/assets/macbook.png",
+      "metals": {
+        "gold": 12,
+        "silver": 10,
+        "bronze": 8,
+        "cobalt": 6,
+        "tungstene": 4
+      }
+    }
+  ]
+}
