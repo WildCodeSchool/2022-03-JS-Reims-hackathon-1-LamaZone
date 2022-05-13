@@ -20,7 +20,7 @@
       "id": 2,
       "name": "iPhone",
       "category": "Mobile",
-      "img": "./src/assets/macbook.png",
+      "img": "./src/assets/iphone.png",
       "metals": {
         "aluminium": 2218,
         "cuivre": 1512,
@@ -38,7 +38,7 @@
       "id": 3,
       "name": "iPad",
       "category": "Tablet",
-      "img": "./src/assets/macbook.png",
+      "img": "./src/assets/ipad.png",
       "metals": {
         "aluminium": 2300,
         "cuivre": 1600,
@@ -56,13 +56,15 @@
       "id": 4,
       "name": "TV",
       "category": "TV",
-      "img": "./src/assets/macbook.png",
+      "img": "./src/assets/tv.png",
       "metals": {
         "tube cathodique": 4300,
         "plastique": 1200,
         "Métaux non fereux": 500,
         "carte électronique": 700,
-        "Métaux ferreux": 1000
+        "Métaux ferreux": 1000,
+        "mercure": 50,
+        "aliminium": 60
       }
     }
   ]

@@ -15,7 +15,6 @@ function Card({ product }) {
           ))}
         </ul>
       </article>
-      <div className="footer-card" />
       <button type="button" className="card-button">
         Ajouter au panier
       </button>
