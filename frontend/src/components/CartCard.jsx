@@ -1,8 +1,6 @@
 import propTypes from "prop-types";
-import { useShoppingCartContext } from "../contexts/ShoppingCartContext";
 
 function CartCard({ product }) {
-  const { shoppingCart, setShoppingCart } = useShoppingCartContext();
   return (
     <div className="card m-3">
       <h3 className="title-card">{product.name}</h3>
@@ -17,13 +15,6 @@ function CartCard({ product }) {
           ))}
         </ul>
       </article>
-      <button
-        type="button"
-        className="card-button"
-        onClick={() => setShoppingCart([...shoppingCart, product])}
-      >
-        Ajouter au panier
-      </button>
     </div>
   );
 }
