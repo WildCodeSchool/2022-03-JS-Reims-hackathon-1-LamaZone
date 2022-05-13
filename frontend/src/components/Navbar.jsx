@@ -32,7 +32,10 @@ function Navbar() {
             className="h-[60px] pl-[3px]"
           />
         </NavLink>
-        <NavLink className="m-2 flex items-center justify-center" to="/cart">
+        <NavLink
+          className="m-2 flex items-center justify-center"
+          to="/contribute"
+        >
           Contribuer
           <img
             src="./src/assets/thumbs-up.png"
