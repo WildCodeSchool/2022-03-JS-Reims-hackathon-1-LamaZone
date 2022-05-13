@@ -1,7 +1,7 @@
 import propTypes from "prop-types";
 import { useShoppingCartContext } from "../contexts/ShoppingCartContext";
 
-function Card({ product }) {
+function CartCard({ product }) {
   const { shoppingCart, setShoppingCart } = useShoppingCartContext();
   return (
     <div className="card m-3">
@@ -28,7 +28,7 @@ function Card({ product }) {
   );
 }
 
-Card.propTypes = {
+CartCard.propTypes = {
   product: propTypes.shape({
     id: propTypes.number.isRequired,
     name: propTypes.string.isRequired,
@@ -37,4 +37,4 @@ Card.propTypes = {
   }).isRequired,
 };
 
-export default Card;
+export default CartCard;
