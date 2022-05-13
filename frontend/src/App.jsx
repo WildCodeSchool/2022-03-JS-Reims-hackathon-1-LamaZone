@@ -1,16 +1,18 @@
-import { useState } from "react";
-import CardList from "./components/CardList";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import ShoppingCart from "./components/ShoppingCart";
 import "./App.css";
 
 function App() {
-  const [value, setValue] = useState("");
   return (
-    <>
-      <Navbar value={value} setValue={setValue} />
-      <p>Hello from App</p>
-      <CardList value={value} />
-    </>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cart" element={<ShoppingCart />} />
+      </Routes>
+    </Router>
   );
 }
 

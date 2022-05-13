@@ -1,3 +1,5 @@
+import CardList from "@components/CardList";
+
 export default function Home() {
-  return <p>Hello React</p>;
+  return <CardList />;
 }
