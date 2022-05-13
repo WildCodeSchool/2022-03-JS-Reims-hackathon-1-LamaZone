@@ -23,7 +23,7 @@ function Navbar() {
       />
       <ul className="flex">
         {createLink("/", "Home")}
-        {createLink("/", "Home")}
+        {createLink("/cart", "Home")}
         {createLink("/", "Home")}
       </ul>
     </nav>
