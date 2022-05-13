@@ -24,7 +24,7 @@ function Navbar() {
         />
       </span>
       <ul className="flex grow items-center justify-center">
-        <NavLink className="m-2 flex items-center justify-center" to="/cart">
+        <NavLink className="m-2 flex items-center justify-center" to="/">
           Acceuil
           <img
             src="./src/assets/home.png"

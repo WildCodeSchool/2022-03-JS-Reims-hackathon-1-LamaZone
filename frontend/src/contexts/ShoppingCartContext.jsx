@@ -5,7 +5,7 @@ import propTypes from "prop-types";
 const ShoppingCartContext = createContext();
 
 export function ShoppingCartContextProvider({ children }) {
-  const [shoppingCart, setShoppingCart] = useState({});
+  const [shoppingCart, setShoppingCart] = useState([]);
 
   return (
     <ShoppingCartContext.Provider value={{ shoppingCart, setShoppingCart }}>

@@ -1,7 +1,11 @@
-import React from "react";
+import CartCardList from "./CartCardList";
 
 function ShoppingCart() {
-  return <h1>ShoppingCart</h1>;
+  return (
+    <div>
+      <CartCardList />
+    </div>
+  );
 }
 
 export default ShoppingCart;
